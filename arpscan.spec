@@ -1,7 +1,7 @@
 Summary:	Very simple ARP scanner
 Name:           arpscan
 Version:        0.8
-Release:        %mkrel 2
+Release:        %mkrel 3
 License:	GPL
 Group:		Networking/Other
 URL:		http://wizard.ae.krakow.pl/~jb/arpscan/
