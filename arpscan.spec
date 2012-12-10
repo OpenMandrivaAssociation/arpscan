@@ -39,3 +39,45 @@ install -m0644 oui %{buildroot}%{_datadir}/%{name}/oui
 %defattr(-,root,root)
 %attr(0755,root,root) %{_sbindir}/*
 %{_datadir}/%{name}
+
+
+%changelog
+* Sun Dec 05 2010 Oden Eriksson <oeriksson@mandriva.com> 0.10-2mdv2011.0
++ Revision: 609993
+- rebuild
+
+* Tue Feb 23 2010 Sandro Cazzaniga <kharec@mandriva.org> 0.10-1mdv2010.1
++ Revision: 510105
+- New release 0.10
+
+* Tue Jun 16 2009 Jérôme Brenier <incubusss@mandriva.org> 0.9-1mdv2010.0
++ Revision: 386369
+- update to new version 0.9
+- fix license tag
+
+* Thu Jun 19 2008 Thierry Vignaud <tv@mandriva.org> 0.8-3mdv2009.0
++ Revision: 226173
+- rebuild
+
+* Thu Dec 20 2007 Olivier Blin <oblin@mandriva.com> 0.8-2mdv2008.1
++ Revision: 135823
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+* Sun Sep 09 2007 Oden Eriksson <oeriksson@mandriva.com> 0.8-2mdv2008.0
++ Revision: 83861
+- rebuild
+
+
+* Fri Dec 22 2006 Oden Eriksson <oeriksson@mandriva.com> 0.8-1mdv2007.0
++ Revision: 101569
+- Import arpscan
+
+* Fri Feb 03 2006 Oden Eriksson <oeriksson@mandriva.com> 0.8-1mdk
+- 0.8
+
+* Sat Jan 08 2005 Oden Eriksson <oeriksson@mandrakesoft.com> 0.5-1mdk
+- initial pld import
+
