@@ -7,6 +7,7 @@ Group:		Networking/Other
 URL:		https://wizard.ae.krakow.pl/~jb/arpscan/
 Source0:	http://wizard.ae.krakow.pl/~jb/arpscan/%{name}-%{version}.tar.gz
 Source1:	http://standards.ieee.org/regauth/oui/oui.txt.bz2
+BuildRequires:	make
 BuildRequires:	gawk
 BuildRoot:      %{_tmppath}/%{name}-%{version}-root
 
